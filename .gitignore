@@ -1,0 +1,120 @@
+# =========================
+# Dependencies
+# =========================
+node_modules/
+**/node_modules/
+.pnp/
+.pnp.js
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# =========================
+# Backend build output
+# =========================
+backend/dist/
+dist/
+
+# =========================
+# Logs
+# =========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Editor / IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# React Native / Metro
+# =========================
+.metro-health-check*
+*.jsbundle
+
+# =========================
+# Android (TodoApp/android)
+# =========================
+TodoApp/android/app/build/
+TodoApp/android/build/
+TodoApp/android/.gradle/
+TodoApp/android/local.properties
+TodoApp/android/*.keystore
+!TodoApp/android/debug.keystore
+TodoApp/android/app/release/
+TodoApp/android/.cxx/
+TodoApp/android/captures/
+*.hprof
+
+# =========================
+# iOS (TodoApp/ios)
+# =========================
+TodoApp/ios/build/
+TodoApp/ios/Pods/
+TodoApp/ios/*.xcworkspace
+!TodoApp/ios/*.xcworkspace/contents.xcworkspacedata
+TodoApp/ios/DerivedData/
+TodoApp/ios/*.hmap
+TodoApp/ios/*.ipa
+TodoApp/ios/*.xcuserstate
+
+# =========================
+# Ruby / CocoaPods (iOS)
+# =========================
+TodoApp/ios/Podfile.lock
+TodoApp/vendor/bundle/
+
+# =========================
+# Testing / coverage
+# =========================
+coverage/
+*.lcov
+
+# =========================
+# TypeScript build info
+# =========================
+*.tsbuildinfo
+
+# =========================
+# Buck (RN internals)
+# =========================
+TodoApp/buck-out/
+TodoApp/\.buckd/
+TodoApp/*.keystore
+!TodoApp/debug.keystore
+
+# =========================
+# Bundle artifacts
+# =========================
+TodoApp/android/app/src/main/assets/index.android.bundle
+TodoApp/android/app/src/main/res/drawable-*/
+TodoApp/android/app/src/main/res/raw/
+
+# =========================
+# Fastlane (if added later)
+# =========================
+TodoApp/**/fastlane/report.xml
+TodoApp/**/fastlane/Preview.html
+TodoApp/**/fastlane/screenshots
+TodoApp/**/fastlane/test_output
+
+# =========================
+# Yarn / npm lock quirks (optional - uncomment if using yarn only)
+# =========================
+# package-lock.json
